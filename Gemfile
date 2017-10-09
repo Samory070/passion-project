@@ -13,6 +13,13 @@ gem 'activerecord', '~>4.2.0'
 gem 'rake'
 
 gem 'shotgun', '~>0.9.1'
+gem 'bcrypt'
+# gem 'google-api-client', '~> 0.11'
+gem 'rspotify'
+
+# gem 'dotenv-rails', groups: [:development, :test]
+gem 'dotenv'
+
 
 group :test do
   gem 'shoulda-matchers'
@@ -24,4 +31,6 @@ end
 group :test, :development do
   gem 'factory_girl'
   gem 'faker'
+  gem 'pry'
+  gem 'pry-byebug'
 end

@@ -19,6 +19,19 @@ require 'sinatra'
 require "sinatra/reloader" if development?
 
 require 'erb'
+require 'bcrypt'
+require 'pry'
+# require 'google/apis/drive_v2'
+require 'rspotify'
+
+
+configure :test, :development do
+  require 'dotenv/load' # don't want this to run in production
+end
+
+# configure :production do
+#   require 'rails_12factor'
+# end
 
 # Some helper constants for path-centric logic
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
