@@ -1,0 +1,20 @@
+<h1>Search for Artist</h1>
+<!-- <form action="/search" method="get">
+  <input type="text" name="search_input" placeholder="Enter Artist Here">
+  <input type="submit" value"Submit">
+</form> -->
+
+
+
+<!-- To do: link tracks to a track show page -->
+
+<%= link_to 'Sign in with Spotify', '/auth/spotify' %>
+
+<form action="/search" method="post">
+  <input type="text" name="search_input" placeholder="type album/artist here">
+  <select name="type">
+    <option value="artist">Artist</option>
+    <option value="album">Album</option>
+  </select>
+  <input type="submit" value="Submit!">
+</form>

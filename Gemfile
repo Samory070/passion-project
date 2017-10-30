@@ -18,8 +18,8 @@ gem 'bcrypt'
 gem 'rspotify'
 
 # gem 'dotenv-rails', groups: [:development, :test]
-gem 'dotenv'
 
+gem 'rails_12factor', group: :production
 
 group :test do
   gem 'shoulda-matchers'
@@ -33,4 +33,5 @@ group :test, :development do
   gem 'faker'
   gem 'pry'
   gem 'pry-byebug'
+  gem 'dotenv'
 end

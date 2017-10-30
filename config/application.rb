@@ -1,0 +1,1 @@
+RSpotify::authenticate(933a83fefdc742c0b2f407d75b9b6272", "126b52c1fad740148369e23ec6440e41")
