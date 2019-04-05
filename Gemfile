@@ -14,6 +14,8 @@ gem 'rake'
 
 gem 'shotgun', '~>0.9.1'
 
+gem "sprockets", ">= 3.7.2"
+
 group :test do
   gem 'shoulda-matchers'
   gem 'rack-test'

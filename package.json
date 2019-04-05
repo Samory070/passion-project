@@ -1,0 +1,24 @@
+{
+  "name": "passion-project",
+  "version": "1.0.0",
+  "description": "passion project",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Samory070/passion-project.git"
+  },
+  "keywords": [
+    "passsion",
+    "project"
+  ],
+  "author": "samory harris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Samory070/passion-project/issues"
+  },
+  "homepage": "https://github.com/Samory070/passion-project#readme"
+}
